@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wind Power Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Start Screen -->
+    <div id="startScreen" class="screen active">
+        <div class="container">
+            <div class="logo">WIND ENERGY</div>
+            <h1>Wellcome to the Quiz!</h1>
+            <p>Test your knowledge by answering all questions correctly</p>
+            <div class="username-input-wrapper">
+                <input type="text" id="usernameInput" class="username-input" placeholder="Enter your name..." maxlength="30">
+            </div>
+            <button class="btn-start" onclick="startQuiz()">START QUIZ</button>
+        </div>
+    </div>
+
+    <!-- Quiz Screen -->
+    <div id="quizScreen" class="screen">
+        <div class="quiz-container">
+            <div class="quiz-header">
+                <div class="player-name" id="playerName"></div>
+                <div class="progress">
+                    <span id="currentQuestion">1</span> / <span id="totalQuestions">10</span>
+                </div>
+                <div class="timer">
+                    <div id="timerCircle" class="timer-circle">
+                        <span id="timeLeft">30</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quiz-content">
+                <h2 id="question" class="question-text"></h2>
+
+                <div class="answers-grid">
+                    <div class="answer-option" onclick="selectAnswer(0)" data-index="0">
+                        <span id="answer-0" class="answer-text"></span>
+                    </div>
+                    <div class="answer-option" onclick="selectAnswer(1)" data-index="1">
+                        <span id="answer-1" class="answer-text"></span>
+                    </div>
+                    <div class="answer-option" onclick="selectAnswer(2)" data-index="2">
+                        <span id="answer-2" class="answer-text"></span>
+                    </div>
+                    <div class="answer-option" onclick="selectAnswer(3)" data-index="3">
+                        <span id="answer-3" class="answer-text"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="score-bar">
+                <div class="score-text">Punkte: <span id="currentScore">0</span></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Results Screen -->
+    <div id="resultsScreen" class="screen">
+        <div class="results-container">
+            <div class="results-icon">✓</div>
+            <h1 id="playerResultName"></h1>
+            <p class="result-subtitle">Gratulationen!</p>
+            <div class="final-score">
+                <span id="finalScore">0</span> / <span id="maxScore">1000</span>
+            </div>
+            <p id="resultMessage" class="result-message"></p>
+            <button class="btn-restart" onclick="restartQuiz()">Nochmal spielen</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
