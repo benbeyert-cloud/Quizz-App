@@ -1,61 +1,61 @@
 // Quiz Daten
 const quizData = [
     {
-        question: "Welcher Planet ist der größte in unserem Sonnensystem?",
+        question: "How many pinwheels are there in Germany?",
         answers: ["Saturn", "Jupiter", "Neptune", "Uranus"],
         correct: 1,
         points: 100
     },
     {
-        question: "Wie viele Kontinente gibt es auf der Erde?",
+        question: "How much does a pinwheel cost?",
         answers: ["5", "6", "7", "8"],
         correct: 2,
         points: 100
     },
     {
-        question: "In welchem Jahr fiel die Berliner Mauer?",
+        question: "How much power does a pinwheel generate in one day?",
         answers: ["1987", "1988", "1989", "1990"],
         correct: 2,
         points: 100
     },
     {
-        question: "Welches ist das größte Organ des menschlichen Körpers?",
+        question: "Why can pinwheel be dangerous?",
         answers: ["Herz", "Hirn", "Haut", "Lunge"],
         correct: 2,
         points: 100
     },
     {
-        question: "Wie viele Saiten hat eine Gitarre?",
+        question: "Wich country has the most pinwheels?",
         answers: ["4", "5", "6", "7"],
         correct: 2,
         points: 100
     },
     {
-        question: "Welcher ist der längste Fluss der Welt?",
+        question: "When was the first pinwheel built?",
         answers: ["Amazon", "Nil", "Jangtsekiang", "Mississippi"],
         correct: 1,
         points: 100
     },
     {
-        question: "In welchem Land liegt die Statue von Christus dem Erlöser?",
+        question: "Whats more expensive One ore Ofshore pinwheels?",
         answers: ["Peru", "Kolumbien", "Brasilien", "Venezuela"],
         correct: 2,
         points: 100
     },
     {
-        question: "Wie viele Quadrate sind auf einem Schachbrett?",
+        question: "What the use of the Yaw System?",
         answers: ["64", "72", "80", "100"],
         correct: 0,
         points: 100
     },
     {
-        question: "Welches Element hat das chemische Symbol 'Au'?",
+        question: "",
         answers: ["Silber", "Aluminium", "Gold", "Argon"],
         correct: 2,
         points: 100
     },
     {
-        question: "Wie schnell reist das Licht?",
+        question: "",
         answers: ["300.000 m/s", "300.000 km/s", "30.000 km/s", "3.000 km/s"],
         correct: 1,
         points: 100
