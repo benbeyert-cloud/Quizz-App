@@ -2,67 +2,66 @@
 const quizData = [
     {
         question: "How many pinwheels are there in Germany?",
-        answers: ["Saturn", "Jupiter", "Neptune", "Uranus"],
-        correct: 1,
+        answers: ["31.000", "42.000", "37.000", "24.000"],
+        correct: 0,
         points: 100
     },
     {
         question: "How much does a pinwheel cost?",
-        answers: ["5", "6", "7", "8"],
-        correct: 2,
+        answers: ["7-9 Milionen", "3-6 Milionen", "13-15 Milionen", "800 Tausend"],
+        correct: 1,
         points: 100
     },
     {
         question: "How much power does a pinwheel generate in one day?",
-        answers: ["1987", "1988", "1989", "1990"],
+        answers: ["120.000 kWh", "150.000 kWh", "50.000 kWh", "210.000 kWh"],
         correct: 2,
         points: 100
     },
     {
-        question: "Why can pinwheel be dangerous?",
-        answers: ["Herz", "Hirn", "Haut", "Lunge"],
+        question: "For how many households does one pinwheel generate power?",
+        answers: ["300", "200", "700", "2000"],
         correct: 2,
         points: 100
     },
     {
         question: "Wich country has the most pinwheels?",
-        answers: ["4", "5", "6", "7"],
+        answers: ["Germany", "USA", "China", "Japan"],
         correct: 2,
         points: 100
     },
     {
         question: "When was the first pinwheel built?",
-        answers: ["Amazon", "Nil", "Jangtsekiang", "Mississippi"],
+        answers: ["Year 1100", "Year 500", "Year 1400", "Year 1800"],
         correct: 1,
         points: 100
     },
     {
         question: "Whats more expensive One ore Ofshore pinwheels?",
-        answers: ["Peru", "Kolumbien", "Brasilien", "Venezuela"],
+        answers: ["They cost the same", "Oneshore is more expensive", "Ofshore is more expensive", "We cant messure that"],
         correct: 2,
         points: 100
     },
     {
         question: "What the use of the Yaw System?",
-        answers: ["64", "72", "80", "100"],
+        answers: ["Maximizes energy capture", "It brushes the teath of the pinwheel", "It turns the nacel into the wind", "It turns the turbine towords the wind"],
         correct: 0,
         points: 100
     },
     {
-        question: "",
-        answers: ["Silber", "Aluminium", "Gold", "Argon"],
+        question: "Wind and what energie are a good combination?",
+        answers: ["Atomic", "Water", "Solar", "Bio"],
         correct: 2,
         points: 100
     },
     {
-        question: "",
-        answers: ["300.000 m/s", "300.000 km/s", "30.000 km/s", "3.000 km/s"],
+        question: "What is the order of the steps to come from wind to energy?",
+        answers: ["Rotor Shaft, Wind Blades, Generator, Transform","Wind Blades, Rotor Shaft, Generator, Transform","Wind Blades, Rotor Shaft, Transform, Generator","Generator, Wind Blades, Rotor Shaft, Transform"],
         correct: 1,
         points: 100
     }
 ];
 
-// Globale Variablen
 let currentQuestion = 0;
 let currentScore = 0;
 let timeLeft = 30;
